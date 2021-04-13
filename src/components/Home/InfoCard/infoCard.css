@@ -1,0 +1,13 @@
+.info-primary{
+    background-color: #1cc7c1;
+    height: 110px;
+    border-radius: 5px;
+}
+.info-dark{
+    background-color: #3a4256;
+    height: 110px;
+    border-radius: 5px;
+}
+.w-info {
+    width: 90%;
+}

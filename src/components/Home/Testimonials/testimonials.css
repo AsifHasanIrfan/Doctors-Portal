@@ -1,0 +1,13 @@
+.testimonials {
+    width: 90%;
+}
+.testimonials-card {
+    border: none;
+    box-shadow: 1px 1px 5px gray;
+}
+.text-color {
+    color: #5fc7c7;
+}
+.img-blog {
+    width: 50px;
+}

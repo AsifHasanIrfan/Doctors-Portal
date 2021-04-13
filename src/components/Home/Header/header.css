@@ -1,0 +1,28 @@
+.header-bg {
+    width:100%;
+    position:relative;
+}
+.header-bg::after {
+    height: 100%;
+    content:' ';
+    position: absolute;
+    top: 0;
+    width: 25%;
+}
+.header-bg::before {
+    height: 100%;
+    content:' ';
+    position: absolute;
+    top: 0;
+    width: 75%;
+}
+.header-bg::after {
+    right: 0;
+    background-color: #3A4256;
+    z-index: -55;
+}
+.header-bg::before {
+    left: 0;
+    background-image: url(../../../images/chair-bg.png);
+    background-size: cover;
+}
